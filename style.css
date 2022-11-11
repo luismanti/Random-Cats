@@ -45,3 +45,12 @@ h1 {
     border: 5px solid rgb(228, 164, 94);
     background-color: rgb(227, 141, 67);
 }
+
+@media (max-width: 400px) {
+    .container .image {
+        border-radius: 10px;
+        margin: 20px;
+        width: 350px;   
+        height: auto;     
+    }
+}
